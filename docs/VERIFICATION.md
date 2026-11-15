@@ -18,7 +18,8 @@ Date:2026-11-15. This record separates tested behavior from full clean-machine/p
 - No live AgentRouter quota spent on installer validation; access/model quality/context capacity and current IDs must be verified by each recipient.
 - No macOS/Linux automated installer. CI portable proxy/fixture tests do not imply a desktop provisioning implementation on those platforms.
 - No impossible external-editor/app-wide race guarantee. Toolkit lock serializes its own operations; keep apps/editors closed. Unknown/changed state fails closed.
-- GitHub CI result is separate from local tests; inspect the repository's Actions checks after push.
+- Final local run: **241 pass, 4 Windows-specific skips, 0 fail**, 658 assertions across245tests/10files;25.84seconds. Publication scan passed; PowerShell scripts parsed.
+- GitHub Actions is **not enabled** in this initial publication: the user's login lacks `workflow` scope, and they explicitly chose publication without CI. [ci-template.yml](ci-template.yml) is a reviewed template only, not a successful CI run.
 
 ## Existing platform skips
 
