@@ -1,0 +1,16 @@
+{
+  "name": "agentrouter-claude-setup",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Windows-first AgentRouter setup for Claude Code through AR-Proxy and cc-switch",
+  "license": "MIT",
+  "scripts": {
+    "test": "bun test",
+    "setup": "bun scripts/configure.ts",
+    "start": "bun scripts/start.ts",
+    "doctor": "bun scripts/doctor.ts",
+    "restore": "bun scripts/restore.ts",
+    "scan": "bun scripts/scan-public.ts"
+  },
+  "engines": { "bun": ">=1.4.4" }
+}

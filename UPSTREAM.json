@@ -1,0 +1,58 @@
+{
+  "repository": "https://github.com/insterbridge/AR-Proxy",
+  "baseCommit": "76d7619",
+  "license": "MIT",
+  "note": "Includes locally tested retry, bridge-state compatibility, queue-budget, and optional compaction extensions; not an official upstream release.",
+  "files": [
+    {
+      "file": "proxy/proxy.ts",
+      "sha256": "8fa6b1222ef587cd428a8274ff21093dfea4d34dfef8048b7a72616002ebc103",
+      "copiedSourceSha256": "845d4cd9f66e265175e74e2534ba4cc4cf4d3ea4a2bff74e7279e997676a2039",
+      "toolkitModification": "Expose only nonsecret effective options in local health for safe reuse checks"
+    },
+    {
+      "file": "proxy/claude.ts",
+      "sha256": "f2656f42721774df0918b97bb13dd36e5bcc76ee590b72dd115bdd8893a587de"
+    },
+    {
+      "file": "proxy/compaction.ts",
+      "sha256": "60127f38603e1cbb56120cb21897cbaa314fdedbad01cef40a85dc6f837b4c86"
+    },
+    {
+      "file": "proxy/proxy.test.ts",
+      "sha256": "510dfb1f7877b6e25122a5769ab7b9e72b63cef5b572c367b1807dc140cae806"
+    },
+    {
+      "file": "proxy/claude.test.ts",
+      "sha256": "73e8b533a420c5d44308cbbda135cb2566167edff7e05ad1411bda5539a149ba"
+    },
+    {
+      "file": "proxy/compaction.test.ts",
+      "sha256": "1d337ef442c7d01ca1f8e172dfa661604e6188cb094ea9e6a58786e462e57f8d"
+    },
+    {
+      "file": "proxy/bridge-compatibility.test.ts",
+      "sha256": "e54e1f716eccb664f29ff4c22b9c32874867783a2d851a92c66f999b8b4138d0"
+    },
+    {
+      "file": "proxy/effort-forwarding.test.ts",
+      "sha256": "320cd2aafd902b4959e3cbbc6c452b7b5154cf35ac0216e8f68a5c5ff924e158"
+    },
+    {
+      "file": "proxy/probe-server.ts",
+      "sha256": "902ce29885f68da6404b0e4f5632175cbf57c259183bac12078147911be3b035"
+    },
+    {
+      "file": "proxy/claude.sh",
+      "sha256": "a5a35fb4de5e3d386eab3dfebef7d954edcfa801e14a323f1087f7775063f227"
+    },
+    {
+      "file": "proxy/smoke.sh",
+      "sha256": "8a146a5c11df07eaaead0895a308b6679594598c1c3849b0b991536dc6ad3a49"
+    },
+    {
+      "file": "proxy/LICENSE",
+      "sha256": "1661962b3291c92ee9c30e4f4b4efbd39896daa11cc3b94116da804adbe431ef"
+    }
+  ]
+}
